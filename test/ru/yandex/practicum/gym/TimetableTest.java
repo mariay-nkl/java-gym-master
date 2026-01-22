@@ -72,7 +72,7 @@ public class TimetableTest {
 
         List<TrainingSession> mondayAt13 = timetable.getTrainingSessionsForDayAndTime(
                 DayOfWeek.MONDAY, new TimeOfDay(13, 0));
-        assertTrue(mondayAt13.size());
+        assertEquals(1, mondayAt13.size());
 
         List<TrainingSession> mondayAt14 = timetable.getTrainingSessionsForDayAndTime(
                 DayOfWeek.MONDAY, new TimeOfDay(14, 0));
