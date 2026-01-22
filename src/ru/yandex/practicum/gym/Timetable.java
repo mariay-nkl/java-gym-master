@@ -1,7 +1,5 @@
 package ru.yandex.practicum.gym;
 
-import com.sun.source.tree.ArrayAccessTree;
-import com.sun.source.tree.Tree;
 
 import java.util.*;
 
@@ -17,7 +15,7 @@ public class Timetable {
     }
 
     public void addNewTrainingSession(TrainingSession trainingSession) {
-        DayOfWeek day= trainingSession.getDayOfWeek();
+        DayOfWeek day = trainingSession.getDayOfWeek();
         TimeOfDay time = trainingSession.getTimeOfDay();
 
         TreeMap<TimeOfDay, List<TrainingSession>> daySchedule = timetable.get(day);
@@ -62,7 +60,7 @@ public class Timetable {
             }
         }
 
-        List <CounterOfTrainings> result = new ArrayList<>();
+        List<CounterOfTrainings> result = new ArrayList<>();
         for (Map.Entry<Coach, Integer> entry : coachCounter.entrySet()) {
             result.add(new CounterOfTrainings(entry.getKey(), entry.getValue()));
         }
