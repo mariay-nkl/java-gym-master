@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7188469c-9e22-40ce-a7eb-33ddb7fee1a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/CounterOfTrainings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-gym-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/TimeOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/TimeOfDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/Timetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/TrainingSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/yandex/practicum/gym/TrainingSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ru/yandex/practicum/gym/TimetableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ru/yandex/practicum/gym/TimetableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
