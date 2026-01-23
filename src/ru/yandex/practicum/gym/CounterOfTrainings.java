@@ -19,7 +19,7 @@ public class CounterOfTrainings implements Comparable<CounterOfTrainings> {
 
     @Override
     public int compareTo(CounterOfTrainings other) {
-        return other.count - this.count;
+        return Integer.compare(other.count, this.count);
     }
 
 
