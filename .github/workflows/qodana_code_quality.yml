@@ -1,0 +1,13 @@
+name: Qodana
+on: [push, pull_request]
+
+jobs:
+  qodana:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 'Qodana Scan'
+        run: |
+          docker run --rm -v "${{ github.workspace }}:/data/project" \
+            -v "${{ runner.temp }}/qodana/results:/data/results" \
+            jetbrains/qodana-jvm-community:latest

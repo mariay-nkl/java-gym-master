@@ -1,14 +1,9 @@
 package ru.yandex.practicum.gym;
 
 public class TrainingSession {
-
-    //группа
     private Group group;
-    //тренер
     private Coach coach;
-    //день недели
     private DayOfWeek dayOfWeek;
-    //время начала занятия
     private TimeOfDay timeOfDay;
 
     public TrainingSession(Group group, Coach coach, DayOfWeek dayOfWeek, TimeOfDay timeOfDay) {
@@ -34,3 +29,4 @@ public class TrainingSession {
         return timeOfDay;
     }
 }
+
